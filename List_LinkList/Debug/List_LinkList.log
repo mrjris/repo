@@ -1,0 +1,20 @@
+﻿Build started 9/30/2015 2:47:47 PM.
+     1>Project "E:\Project\C#\Converter\List_LinkList\List_LinkList.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\VS\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\List_LinkList.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib List_LinkList.cpp
+         List_LinkList.cpp
+     1>List_LinkList.cpp(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>List_LinkList.cpp(5): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>List_LinkList.cpp(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+       Link:
+         E:\VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Project\C#\Converter\Debug\List_LinkList.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Project\C#\Converter\Debug\List_LinkList.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\List_LinkList.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         List_LinkList.vcxproj -> E:\Project\C#\Converter\Debug\List_LinkList.exe
+     1>Done Building Project "E:\Project\C#\Converter\List_LinkList\List_LinkList.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.63

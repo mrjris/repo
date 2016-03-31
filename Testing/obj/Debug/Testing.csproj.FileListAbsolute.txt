@@ -1,0 +1,6 @@
+E:\Project\C#\Converter\Testing\bin\Debug\Testing.exe.config
+E:\Project\C#\Converter\Testing\bin\Debug\Testing.exe
+E:\Project\C#\Converter\Testing\bin\Debug\Testing.pdb
+E:\Project\C#\Converter\Testing\obj\Debug\Testing.exe
+E:\Project\C#\Converter\Testing\obj\Debug\Testing.pdb
+E:\Project\C#\Converter\Testing\obj\Debug\Testing.csprojResolveAssemblyReference.cache
