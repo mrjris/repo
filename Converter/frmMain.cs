@@ -110,5 +110,10 @@ namespace Converter
             if (count == 14) count = 0;
             
         }
+
+        private void btnPageControll_Click(object sender, EventArgs e)
+        {
+            (new frmPageControll()).Show();
+        }
     }
 }

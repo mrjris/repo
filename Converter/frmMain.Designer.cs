@@ -38,11 +38,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label3 = new System.Windows.Forms.Label();
+            this.btnPageControll = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnPageControll);
             this.groupBox1.Controls.Add(this.btnMore);
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.btnDoubleToBit);
@@ -58,7 +60,7 @@
             // 
             // btnMore
             // 
-            this.btnMore.Location = new System.Drawing.Point(233, 121);
+            this.btnMore.Location = new System.Drawing.Point(21, 199);
             this.btnMore.Name = "btnMore";
             this.btnMore.Size = new System.Drawing.Size(100, 72);
             this.btnMore.TabIndex = 0;
@@ -146,6 +148,16 @@
             this.label3.TabIndex = 1;
             this.label3.Text = "®";
             // 
+            // btnPageControll
+            // 
+            this.btnPageControll.Location = new System.Drawing.Point(233, 121);
+            this.btnPageControll.Name = "btnPageControll";
+            this.btnPageControll.Size = new System.Drawing.Size(100, 72);
+            this.btnPageControll.TabIndex = 0;
+            this.btnPageControll.Text = "Quản lý Bộ nhớ\r";
+            this.btnPageControll.UseVisualStyleBackColor = true;
+            this.btnPageControll.Click += new System.EventHandler(this.btnPageControll_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -176,7 +188,6 @@
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Button btnMore;
         private System.Windows.Forms.Label label3;
-
-
+        private System.Windows.Forms.Button btnPageControll;
     }
 }
