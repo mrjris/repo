@@ -142,11 +142,7 @@ namespace Converter
                 }
                 i++;
             }
-            int p = 0;
-            for ( i = i; i < words.Length; i++)
-            {
-                
-            }
+            
 
         }
     }
